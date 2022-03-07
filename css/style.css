@@ -1,0 +1,95 @@
+/************************************************* Header ********************************************************************/
+/********** Mainbanner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;left:0;bottom:135px;right:0;}
+/********** Welcome **************************************************************************************************/
+#Welcome {background:url(../images/welcome-bg.jpg) no-repeat center center; background-size:cover; min-height:780px;}
+#Welcome .btn{font-weight:400 !important;} #Welcome .w-50 {width: 47% !important;}
+/********** Adventure **************************************************************************************************/
+#Adventure {background:url(../images/adventure-bg.png) no-repeat center center; background-size:cover; min-height:780px;}
+#Adventure img{box-shadow: 0px 0px 35px rgba(0,0,0,.5);}
+
+/********** Portfolio **************************************************************************************************/
+#Portfolio {background:url(../images/portfolio-bg.png) no-repeat center center; background-size:cover; min-height:780px;}
+#Portfolio .btn{font-family: 'Lato', sans-serif !important;} #Portfolio .mrgn{margin-right: 95px;}
+/********** Footer **************************************************************************************************/
+#Footer {color:#fff; font-size:14px; font-weight:400 !important; line-height:2.2;} #Footer .links{line-height:1.8;} #Footer .fa-lg{color:#d7b740;} #Footer a{color:#fff; } #Footer a:hover{color:#d7b740;}
+#Footer .form-group{margin-bottom:13px !important; width:319px;}
+#Footer .form-control{font-size:13px !important; border-color:#fff; border-radius:0; height:60px !important; color:#858585; font-weight:300 !important; background:#fff; letter-spacing:.16em; text-align:center;} #Footer .form-control::placeholder{color:#858585;}
+#Footer .form-group .form-control:focus {outline:none !important;outline-width: 0 !important;box-shadow: none;-moz-box-shadow: none;
+-webkit-box-shadow: none;} #Footer .btn{font-size:14px !important; letter-spacing:.040em !important; font-weight:500 !important; height: 60px !important;width: 319px !important;} #Footer .CopyText{font-size:12px; color:#4b4b4b;} #Footer .list-inline-item:not(:last-child) {margin-right:20px;} #Footer .list-inline-item a{font-size:11px; font-weight:700; color:#4b4b4b;} #Footer .text-warning{color:#d7b740 !important;} #Footer .list-inline-item a:hover{color:#d7b740;} #Footer .py-6{padding-top:180px; padding-bottom:230px;}  
+#Footer {background:url(../images/footer-bg.png) no-repeat center bottom; background-size:cover; min-height:760px;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1920px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container-fluid{max-width:1400px !important;}
+.container{max-width:1230px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+@media (min-width:767.98px) {
+	
+}
+
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(4,7,7,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999; padding-bottom:10px;}
+.Logo img {max-height:106px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:80px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo{padding-top:35px; padding-bottom:35px;}  .shrink .Logo{padding-top:10px; padding-bottom:10px;}
+.Homebnr .carousel-item img {
+    height: 780px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+}
+
+@media (min-width: 1920px) {
+}
+@media (min-width: 1200px) {.gx-6 {margin-left:-22px!important;margin-right:-22px!important;}
+.gx-6 div[class^="col"]{padding-left:22px!important;padding-right:22px!important;}
+	
+
+}
+
+@media (min-width: 1600px) {
+}
+
+@media (min-width: 1459.98px) and (max-width: 1559.98px) {
+
+
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {
+}
+
+@media (min-width: 991.98px) and (max-width: 1199.98px){h2, .h2 {font-size: 30px;} #Welcome {min-height: 600px;} h1, .h1 {font-size: 35px;} #Adventure h3{font-size: 20px;} #Adventure {min-height: 700px;} #Portfolio {min-height: 600px;} #Portfolio .mrgn {margin-right: 0px;} #Footer {min-height: 600px;} #Footer .py-6 {padding-top: 100px;padding-bottom: 160px;}}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static; background:#000;} .Logo{padding-top:15px; padding-bottom:15px;}h2, .h2 {font-size: 25px;} #Welcome {min-height: 600px;} h1, .h1 {font-size: 30px;} #Adventure h3{font-size: 20px;} #Portfolio {min-height: 600px;} #Portfolio .mrgn {margin-right: 0px;} #Footer {min-height: 600px;} #Footer .py-6 {padding-top: 100px;padding-bottom: 160px;} .MainBanner .carousel-caption{bottom:35px;} #Adventure {min-height: 600px;} #Adventure h4, .h4 {font-size: 18px;} #Footer .form-group {width: 100%;} #Footer .btn{width: 100% !important;}} 
+
+
+@media (max-width:767.98px) {#Header{position:static; background:#000;} .Logo{padding-top:15px; padding-bottom:15px;}h2, .h2 {font-size: 20px;} #Welcome {min-height: 600px;} #Welcome .w-50 {width: 60% !important;} h1, .h1 {font-size: 25px;} #Adventure h3{font-size: 20px;} #Portfolio {min-height: 600px;} #Portfolio .mrgn {margin-right: 0px;} #Footer {min-height: 600px;} #Footer .py-6 {padding-top: 100px;padding-bottom: 160px;} .MainBanner .carousel-caption{bottom:35px;} #Adventure {min-height: 600px;} #Adventure h4, .h4 {font-size: 18px;} #Footer .form-group {width: 100%;} #Footer .btn{width: 100% !important;} #Footer .list-inline-item:not(:last-child) {margin-right: 10px;}
+}
+@media (max-width:575.98px) {.Homebnr .carousel-item img {
+    height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	} .MainBanner .carousel-caption {bottom: 0px; top:0;} .MainBanner .carousel-caption .btn{padding:10px 14px;} #Welcome .w-50 {width: 100% !important;} #Footer .py-6 {padding-top: 60px;} #Footer .me-n5{margin-right: -100px;}}
